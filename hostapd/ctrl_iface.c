@@ -16,7 +16,7 @@
 
 #if defined(USES_TI_MAC80211) || defined(BOARD_TI_SOFTAP)
 #include <cutils/sockets.h>
-+#endif /* USES_TI_MAC80211 or BOARD_TI_SOFTAP*/
+#endif /* USES_TI_MAC80211 or BOARD_TI_SOFTAP*/
 
 #include "utils/common.h"
 #include "utils/eloop.h"
